@@ -12,8 +12,8 @@ class NavBarMain extends Component {
     render() {
         return (
             <div>
-                <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="#home">Kulcher Tek</Navbar.Brand>
+                <Navbar bg="secondary" variant="dark">
+    <Navbar.Brand href="#home">Kulcher Tek Podcast</Navbar.Brand>
     <Nav className="mr-auto">
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>

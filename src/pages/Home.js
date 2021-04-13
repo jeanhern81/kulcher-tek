@@ -11,8 +11,9 @@ class Home extends React.Component {
     return (
         <div>
             <Nav />
+            <div className="homeBody">
         Kulcher Tek Home Page Works
-
+            </div>
             <Footer />
         </div>
     );
