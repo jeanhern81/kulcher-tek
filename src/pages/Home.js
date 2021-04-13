@@ -3,6 +3,7 @@ import React, { Component } from "react";
 //Pages
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
+import HomeBody from "../components/HomeBody";
 //Style Sheet
 import '../index.css';
 
@@ -12,10 +13,8 @@ class Home extends React.Component {
         <div>
             <Nav />
             
-            <div className="homeBody">
-        Kulcher Tek Home Page Works
-            </div>
-            
+            <HomeBody />
+
             <Footer />
         </div>
     );
