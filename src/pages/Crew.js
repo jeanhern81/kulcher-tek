@@ -6,19 +6,19 @@ import Footer from '../components/Footer';
 //Style Sheet
 import '../index.css';
 
-class Home extends React.Component {
+class Crew extends React.Component {
     render() {
     return (
         <div>
             <Nav />
             
-            <div className="homeBody">
-        Kulcher Tek Home Page Works
+            <div className="meetTheCrew">
+            Meet the Crew!
             </div>
-            
+
             <Footer />
         </div>
     );
     }
 }
-export default Home;
+export default Crew;

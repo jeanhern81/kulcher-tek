@@ -1,5 +1,26 @@
+.whoWe {
+    color: white;
+}
+
+a{
+    color: rgb(236, 230, 209) !important;
+}
+
+a:hover{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
 .socialMediaIcons {
     color: white;
-    float:right;
+    font-size: 1.0rem;
     
+    
+    
+}
+
+#kT {
+    font-size: 1.0rem;
 }

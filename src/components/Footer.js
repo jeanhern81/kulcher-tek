@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Container from "react-bootstrap/Container";
 import Navbar from 'react-bootstrap/Navbar';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col'
@@ -13,41 +14,37 @@ import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 
 
 import './NavFooter.css';
+import { Nav } from 'react-bootstrap';
 
 class Footer extends Component {
 
     render() {
         return (
-            <div>
+    <Container fluid={true}>
                 
             
-    <Navbar bg="secondary" variant="dark"  fixed="bottom" className="justify-content" >
-    <Row>
-    <Col>
-        <Navbar.Brand href="#home" >
-        
-                <AiOutlineCopyrightCircle />&nbsp; Kulter Tek Media 2021.
-        
-        </Navbar.Brand>
-    </Col>
+    <Navbar bg="secondary" variant="dark"  fixed="bottom" className="justify-content-center">
+        <Row>
+        <Col >
+            <Navbar.Brand id="kT">
+                <AiOutlineCopyrightCircle /><a href="#home">&nbsp; Kulter Tek Media 2021.&nbsp;</a>
+            </Navbar.Brand>
+        </Col >
 
-    <Col>
-        <div className=" socialMediaIcons px-15">
-            <SiInstagram /> &nbsp;
-            <SiFacebook /> &nbsp;
+        <Col className="p-1">
+            <div className=" socialMediaIcons">
+            <a href="https://www.instagram.com/kulchertek/"><SiInstagram /></a> &nbsp;
+            <a href="https://www.facebook.com/KulcherTek"><SiFacebook /></a> &nbsp;
             <FiTwitter /> &nbsp;
             <SiTiktok /> &nbsp;
-            <ImPodcast /> &nbsp;
+            <a href="https://kulchertek.podbean.com/"><ImPodcast /></a> &nbsp;
         </div>
-    </Col>
+        </Col>
 
-
-
-
-    </Row>
+        </Row>
     </Navbar> 
     
-            </div>
+    </Container>
         );
         }
 
