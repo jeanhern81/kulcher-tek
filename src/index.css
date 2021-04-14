@@ -15,3 +15,7 @@ code {
 .bodyText {
   color: black;
 }
+
+.Card {
+  float: center
+}
