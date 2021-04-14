@@ -1,9 +1,10 @@
+
 .whoWe {
     color: white;
 }
 
 a{
-    color: rgb(236, 230, 209) !important;
+    color: white!important;
 }
 
 a:hover{
@@ -24,3 +25,4 @@ a:visited {
 #kT {
     font-size: 1.0rem;
 }
+

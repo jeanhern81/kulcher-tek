@@ -19,3 +19,17 @@ code {
 .Card {
   float: center
 }
+
+.bodyText {
+  margin-top: 5%;
+}
+
+.vl {
+  border-left: 1px solid gray;
+  height: 400px;
+  margin-right: 5%;
+}
+
+hr {
+  border-top: 1px solid gray !important;
+}

@@ -4,8 +4,9 @@ import React, { Component } from "react";
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import HomeBody from "../components/HomeBody";
+
 //Style Sheet
-import '../index.css';
+import '../../../src/index.css';
 
 class Home extends React.Component {
     render() {

@@ -1,18 +1,19 @@
 import React from "react";
 
-import Image from 'react-bootstrap/Image';
-
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container';
 import { Card } from "react-bootstrap";
+
+import Me from '../images/Me.png';
 //Style Sheet
-import '../index.css';
+import '../../../src/index.css';
 
 
 function CrewBody() {
 
 return (
-<Container fluid={true} className="py-5">
+<Container fluid={false} className="py-5">
 
 
 <Card style={{ }} >
@@ -38,7 +39,10 @@ return (
 
     <Card.Body >
         <h3 >Jeanette</h3>  
-        <Col xs={6} md={4} ><Image src={require('../images/Me.png')} style={{width: 350, float:'left' }} id='me' alt='Jeanette Hernandez'  /></Col> 
+        <Col xs={6} md={4} >
+        <img src={Me} style={{width: 175, float:'left' }} id='me' alt='Jeanette Hernandez' ></img>
+            
+        </Col> 
         
 
         <div className='jeanetteTxt'>
@@ -76,7 +80,11 @@ return (
 
 
 </Card>
+
+<br />
 </Container>
+
+
 
 
             
