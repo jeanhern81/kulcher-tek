@@ -12,9 +12,8 @@ import { FiTwitter } from 'react-icons/fi';
 import { SiTiktok } from 'react-icons/si';
 import { AiOutlineCopyrightCircle } from 'react-icons/ai';
 
-
 import './NavFooter.css';
-import { Nav } from 'react-bootstrap';
+
 
 class Footer extends Component {
 

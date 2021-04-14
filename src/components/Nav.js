@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import {
+    BrowserRouter as Router, Route, Link, Switch
+} from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
@@ -12,11 +14,15 @@ class NavBarMain extends Component {
     render() {
         return (
             <div>
+    
+    <Router>
                 <Navbar bg="secondary" variant="dark">
-    <Navbar.Brand href="#home">Kulcher Tek Podcast</Navbar.Brand>
+    <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>
     <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#crew">Meet the Crew</Nav.Link>
+
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/crew">Meet the Crew</Nav.Link>
+
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
         <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
 
@@ -27,13 +33,17 @@ class NavBarMain extends Component {
 
     </NavDropdown>  
 
+
     </Nav>
+    
     <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-info">Search</Button>
+        <Button variant="outline-light">Search</Button>
     </Form>
+    
     </Navbar>
 
+    </Router>
 
     
     
