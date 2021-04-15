@@ -23,8 +23,8 @@ class NavBarMain extends Component {
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/crew">Meet the Crew</Nav.Link>
 
-        <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
-        <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
+        <Nav.Link href="/https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
+        <Nav.Link href="/https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
 
         <NavDropdown title="Shop Merch" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Clothing</NavDropdown.Item>

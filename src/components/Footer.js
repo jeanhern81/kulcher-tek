@@ -32,11 +32,11 @@ class Footer extends Component {
 
         <Col className="p-1">
             <div className=" socialMediaIcons">
-            <a href="https://www.instagram.com/kulchertek/"><SiInstagram /></a> &nbsp;
-            <a href="https://www.facebook.com/KulcherTek"><SiFacebook /></a> &nbsp;
-            <a href="https://twitter.com/KulcherTek"><FiTwitter /></a> &nbsp;
+            <a href="/https://www.instagram.com/kulchertek/"><SiInstagram /></a> &nbsp;
+            <a href="/https://www.facebook.com/KulcherTek"><SiFacebook /></a> &nbsp;
+            <a href="/https://twitter.com/KulcherTek"><FiTwitter /></a> &nbsp;
             <SiTiktok /> &nbsp;
-            <a href="https://kulchertek.podbean.com/"><ImPodcast /></a> &nbsp;
+            <a href="/https://kulchertek.podbean.com/"><ImPodcast /></a> &nbsp;
         </div>
         </Col>
 

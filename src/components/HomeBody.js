@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 
 //Style Sheet
-import '../../../src/index.css';
+import '../index.css';
 
 
 class HomeBody extends React.Component {

@@ -7,7 +7,7 @@ import { Card } from "react-bootstrap";
 
 import Me from '../images/Me.png';
 //Style Sheet
-import '../../../src/index.css';
+import '../index.css';
 
 
 function CrewBody() {

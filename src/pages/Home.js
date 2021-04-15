@@ -3,21 +3,22 @@ import React, { Component } from "react";
 //Pages
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import CrewBody from "../components/CrewBody";
-//Style Sheet
-import '../../../src/index.css';
+import HomeBody from "../components/HomeBody";
 
-class Crew extends React.Component {
+//Style Sheet
+import '../index.css';
+
+class Home extends React.Component {
     render() {
     return (
         <div>
             <Nav />
             
-            <CrewBody />
+            <HomeBody />
 
             <Footer />
         </div>
     );
     }
 }
-export default Crew;
+export default Home;
