@@ -11,8 +11,7 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path ='/' component={Home} />
-      <Route exact path='/kulcher-tek' component={Home} />
-      <Route exact path='/crew' component={Crew} />
+      <Route exact path='/crew' render={() => <Crew />  } />
     </Switch>
       </BrowserRouter>
 
