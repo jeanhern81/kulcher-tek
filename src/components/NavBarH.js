@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {
-    BrowserRouter as Router, 
-} from "react-router-dom";
+    BrowserRouter as Router, Link } from "react-router-dom";
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -12,24 +11,24 @@ import Button from 'react-bootstrap/Button';
 
 
 
-class NavBarMain extends Component {
+class NavBarH extends Component {
 
     render() {
         return (
             <div>
     
     <Router>
-                <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>
     <Nav className="mr-auto">
-
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/crew">Meet the Crew</Nav.Link>
+        <ul className='navbar-nav ml-auto'>
+        <Link className='nav-link' to="/" ><li>Home</li></Link>
+        <Link className='nav-link' to="/crew"><li>Meet the Crew</li></Link>
     
-
-        <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
+            {/* external links */}
+        <Nav.Link  href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
         <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
-
+        </ul>
         {/* 
         <NavDropdown title="Shop Merch" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Clothing</NavDropdown.Item>
@@ -60,4 +59,4 @@ class NavBarMain extends Component {
 }
 
 
-export default NavBarMain;
+export default NavBarH;
