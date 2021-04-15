@@ -37,8 +37,6 @@ class NavBarH extends Component {
 
     </NavDropdown>  
     */} 
-
-
     </Nav>
     
     <Form inline>
