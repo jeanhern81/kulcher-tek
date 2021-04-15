@@ -10,10 +10,9 @@ function App() {
 
     <div className='App'>
       
-<BrowserRouter basename={process.env.PUBLIC_URL, process.env.SRC_URL}>
+<BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
-      <Route exact path='/' component={Home} />
-      
+      <Route exact path='/' component={Home} />      
       <Route exact path='/crew' component={Crew } />
       
     </Switch>
