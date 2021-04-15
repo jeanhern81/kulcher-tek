@@ -10,17 +10,18 @@ function App() {
     <Router>
     <div className='App'>
       
+<BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path ='/' component={Home} />
       <Route exact path='/crew' component={Crew } />
     </Switch>
-    
+</BrowserRouter>    
 
     
 
 
   </div>
-</Router>
+  </Router>
   );
 }
 
