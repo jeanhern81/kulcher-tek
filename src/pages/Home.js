@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 //Pages
-import NavBarH from '../components/NavBarH';
+import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import HomeBody from "../components/HomeBody";
 
@@ -12,7 +12,7 @@ class Home extends React.Component {
     render() {
     return (
         <div>
-            <NavBarH />
+            <Nav />
             
             <HomeBody />
 
