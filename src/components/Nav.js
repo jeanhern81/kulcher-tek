@@ -22,7 +22,10 @@ class NavBarMain extends Component {
     <Nav className="mr-auto">
 
         <Nav.Link href="/">Home</Nav.Link>
-        <Link className="nav-link" to="/crew">Meet the Crew</Link>
+        <Nav>
+            <Link className="nav-link" to="/crew">Meet the Crew</Link>
+        </Nav>
+        
 
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
         <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
