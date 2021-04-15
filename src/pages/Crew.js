@@ -11,11 +11,11 @@ class Crew extends React.Component {
     render() {
     return (
         <div>
-            <Nav />
+            
             
             <CrewBody />
 
-            <Footer />
+            
         </div>
     );
     }

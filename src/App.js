@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "../src/pages/Home";
 import Crew from "../src/pages/Crew";
+import Nav from '../src/components/Nav';
+import Footer from '../src/components/Footer';
 
 import './App.css';
 
@@ -12,7 +14,7 @@ function App() {
     <div className='App'>
       
 <BrowserRouter basename={process.env.PUBLIC_URL, process.env.SRC_URL}>
-    
+<Nav />
     <Switch>
       <Route exact path='/' component={Home} /> 
       <Route exact path='/kulcher-tek' component={Home} />     
@@ -20,6 +22,7 @@ function App() {
 
       
     </Switch>
+<Footer />    
 </BrowserRouter>    
 
     

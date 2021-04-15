@@ -12,11 +12,11 @@ class Home extends React.Component {
     render() {
     return (
         <div>
-            <Nav />
+            
             
             <HomeBody />
 
-            <Footer />
+            
         </div>
     );
     }
