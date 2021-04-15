@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router, 
 } from "react-router-dom";
-import { Link } from 'react-router-dom';
+
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Form from 'react-bootstrap/Form';
@@ -22,9 +22,8 @@ class NavBarMain extends Component {
     <Nav className="mr-auto">
 
         <Nav.Link href="/">Home</Nav.Link>
-        <Nav>
-            <Link className="nav-link" to="/crew">Meet the Crew</Link>
-        </Nav>
+        <Nav.Link href="/crew">Meet the Crew</Nav.Link>
+    
         
 
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
