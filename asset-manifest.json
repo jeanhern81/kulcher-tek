@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kulcher-tek/static/css/main.be14006f.chunk.css",
-    "main.js": "/kulcher-tek/static/js/main.edd5f9ca.chunk.js",
-    "main.js.map": "/kulcher-tek/static/js/main.edd5f9ca.chunk.js.map",
+    "main.js": "/kulcher-tek/static/js/main.e3be05a2.chunk.js",
+    "main.js.map": "/kulcher-tek/static/js/main.e3be05a2.chunk.js.map",
     "runtime-main.js": "/kulcher-tek/static/js/runtime-main.746b6053.js",
     "runtime-main.js.map": "/kulcher-tek/static/js/runtime-main.746b6053.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/kulcher-tek/static/css/2.4c97ca4f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.4d91d722.chunk.js",
     "static/css/main.be14006f.chunk.css",
-    "static/js/main.edd5f9ca.chunk.js"
+    "static/js/main.e3be05a2.chunk.js"
   ]
 }
