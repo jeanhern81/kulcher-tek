@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from "../src/pages/Home";
 import Crew from "../src/pages/Crew";
@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+
     <div className='App'>
       
 <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -21,7 +21,7 @@ function App() {
 
 
   </div>
-  </Router>
+
   );
 }
 
