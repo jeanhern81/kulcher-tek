@@ -26,7 +26,7 @@ class Footer extends Component {
         <Row>
         <Col >
             <Navbar.Brand id="kT">
-                <AiOutlineCopyrightCircle /><a href="#home">&nbsp; Kulter Tek Media 2021.&nbsp;</a>
+                <AiOutlineCopyrightCircle />&nbsp; Kulter Tek Media 2021.&nbsp;
             </Navbar.Brand>
         </Col >
 
