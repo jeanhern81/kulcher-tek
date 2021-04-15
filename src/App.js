@@ -15,7 +15,7 @@ function App() {
       <Route exact path='/' component={Home} />
       
       <Route exact path='/crew' component={Crew } />
-      <Route exact path='/kulcher-tek/crew' component={Crew} />
+      
     </Switch>
 </BrowserRouter>    
 
