@@ -8,8 +8,6 @@ import Nav from 'react-bootstrap/Nav';
 
 
 
-
-
 class NavBarMain extends Component {
 
     render() {
@@ -17,7 +15,7 @@ class NavBarMain extends Component {
             <div>
     
     <Router>
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="dark" variant="dark" >
     <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>
     <Nav className="mr-auto">
 

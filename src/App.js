@@ -9,12 +9,12 @@ import Jumbotron from "../src/components/Jumbotron";
 
 import './App.css';
 
+
 function App() {
   return (
 
     <div className='App'>
       
-
 <Jumbotron />
 <Nav />
 

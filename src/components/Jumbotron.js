@@ -11,15 +11,10 @@ function Jumbo() {
 
 
     return (
-<Jumbotron>
+<Jumbotron fluid={false}>
     
     <img src={KTPicture} id='jumbo-image' alt='Micophone with podcast name' ></img>
     
-    
-
- 
-
-
 </Jumbotron>
 
     );
