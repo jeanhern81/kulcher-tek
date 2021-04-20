@@ -20,7 +20,7 @@ function App() {
       <Route exact path='/' component={Home} /> 
       <Route exact path='/kulcher-tek' component={Home} />     
       <Route exact path='/crew' component={Crew} />
-      <Route expact path='/kulcher-tek/crew' component={Crew} />
+      
 
       
     </Switch>

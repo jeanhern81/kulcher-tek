@@ -18,11 +18,11 @@ class NavBarMain extends Component {
     
     <Router>
     <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="/kulcher-tek">Kulcher Tek Podcast</Navbar.Brand>
+    <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>
     <Nav className="mr-auto">
 
-        <Nav.Link href="/kulcher-tek">Home</Nav.Link>
-        <Nav.Link href="/kulcher-tek/crew">Meet the Crew</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/crew">Meet the Crew</Nav.Link>
     
             {/* external liks */}
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
