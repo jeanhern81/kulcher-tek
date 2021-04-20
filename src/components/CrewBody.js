@@ -18,6 +18,17 @@ return (
 
 <Container fluid={false} className="py-5">
 
+    <div>
+        <h4>The Crew</h4>
+        <br />
+        <p>
+            Take a minute and get to know us! 
+        </p>
+    </div>
+    
+
+<br />
+
 
 <Card style={{ }} >
 <Card.Body >

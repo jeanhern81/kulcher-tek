@@ -22,7 +22,7 @@ function App() {
     <Switch>
 
       <Route exact path='/' component={Home} />       
-      <Route exact path='/crew' component={Crew} />
+      <Route path='/crew' component={Crew} />
       
       
     </Switch>
@@ -30,9 +30,6 @@ function App() {
 
 <Footer />   
 
-
-
-    
 
 
   </div>
