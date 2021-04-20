@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kulcher-tek/static/css/main.be14006f.chunk.css",
-    "main.js": "/kulcher-tek/static/js/main.86f3257d.chunk.js",
-    "main.js.map": "/kulcher-tek/static/js/main.86f3257d.chunk.js.map",
+    "main.css": "/kulcher-tek/static/css/main.42fb3775.chunk.css",
+    "main.js": "/kulcher-tek/static/js/main.b4ada331.chunk.js",
+    "main.js.map": "/kulcher-tek/static/js/main.b4ada331.chunk.js.map",
     "runtime-main.js": "/kulcher-tek/static/js/runtime-main.7368dfe5.js",
     "runtime-main.js.map": "/kulcher-tek/static/js/runtime-main.7368dfe5.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/kulcher-tek/static/css/2.4c97ca4f.chunk.css",
@@ -12,15 +12,16 @@
     "static/js/3.177734de.chunk.js.map": "/kulcher-tek/static/js/3.177734de.chunk.js.map",
     "index.html": "/kulcher-tek/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/kulcher-tek/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.be14006f.chunk.css.map": "/kulcher-tek/static/css/main.be14006f.chunk.css.map",
+    "static/css/main.42fb3775.chunk.css.map": "/kulcher-tek/static/css/main.42fb3775.chunk.css.map",
     "static/js/2.d28c6818.chunk.js.LICENSE.txt": "/kulcher-tek/static/js/2.d28c6818.chunk.js.LICENSE.txt",
-    "static/media/Me.2867774b.png": "/kulcher-tek/static/media/Me.2867774b.png"
+    "static/media/Me.2867774b.png": "/kulcher-tek/static/media/Me.2867774b.png",
+    "static/media/gerson.e877df99.png": "/kulcher-tek/static/media/gerson.e877df99.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7368dfe5.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.d28c6818.chunk.js",
-    "static/css/main.be14006f.chunk.css",
-    "static/js/main.86f3257d.chunk.js"
+    "static/css/main.42fb3775.chunk.css",
+    "static/js/main.b4ada331.chunk.js"
   ]
 }
