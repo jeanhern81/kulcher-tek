@@ -21,6 +21,7 @@ class NavBarMain extends Component {
 
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="/crew">Meet the Crew</Nav.Link>
+        <Nav.Link href='/contact'>Contact Us</Nav.Link>
     
             {/* external liks */}
         <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
