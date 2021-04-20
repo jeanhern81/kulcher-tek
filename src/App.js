@@ -16,20 +16,20 @@ function App() {
 
 
 <Nav />
+
 <Router>
     <Switch>
 
-      <Route exact path='/' component={Home} /> 
-      
+      <Route exact path='/' component={Home} />       
       <Route exact path='/crew' component={Crew} />
       
-
       
     </Switch>
-    </Router>   
+</Router>
+
 <Footer />   
 
- 
+
 
     
 
