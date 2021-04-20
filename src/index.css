@@ -33,3 +33,11 @@ code {
 hr {
   border-top: 1px solid gray !important;
 }
+
+p.gmTxt {
+  margin-left: 12rem;
+}
+
+p.jeanetteTxt {
+  margin-left: 12rem;
+}
