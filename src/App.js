@@ -17,14 +17,16 @@ function App() {
 
 <Nav />
     <Switch>
+      
       <Route exact path='/' component={Home} /> 
-      <Route exact path='/kulcher-tek' component={Home} />     
+      
       <Route exact path='/crew' component={Crew} />
       
 
       
     </Switch>
-<Footer />    
+<Footer />   
+
 </BrowserRouter>    
 
     
