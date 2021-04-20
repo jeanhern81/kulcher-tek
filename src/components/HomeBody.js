@@ -20,13 +20,13 @@ render () {
                 <p>Kulcher Tek Podcast where we talk about how techonology, pop culture, and everything in-between.</p>
         </p>
     <br />
-   <hr />
+    <hr />
     <br />
     <div> 
         <Row>
             <Col sm={6}>
         <h3>Upcoming Show Topics:</h3>
-            <ul>The Internet and Me< /ul>
+            <ul>The Internet and Me</ul>
             <ul>TikTok and the Over 60 Crowd </ul>
             <ul>Crypto Currency say what? </ul>
             <ul>TBD </ul>
@@ -48,11 +48,14 @@ render () {
             </Col>
         </Row>
 
-
         </div>
+
+</Container>
+
+</div>
         
-        </Container>
-    </div>
+
+    
 
     
             
@@ -61,6 +64,8 @@ render () {
 
     }
 
-}
+};
+
+
 export default HomeBody;
 

@@ -22,7 +22,7 @@ class Footer extends Component {
     <Container fluid={true}>
                 
             
-    <Navbar bg="dark" variant="dark"  fixed="bottom" className="justify-content-center">
+    <Navbar bg="dark" variant="dark"  fixed="sticky" className="justify-content-center">
         <Row>
         <Col >
             <Navbar.Brand id="kT">

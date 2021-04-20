@@ -5,6 +5,7 @@ import Home from "../src/pages/Home";
 import Crew from "../src/pages/Crew";
 import Nav from '../src/components/Nav';
 import Footer from '../src/components/Footer';
+import Jumbotron from "../src/components/Jumbotron";
 
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
     <div className='App'>
       
 
-
+<Jumbotron />
 <Nav />
 
 <Router>
