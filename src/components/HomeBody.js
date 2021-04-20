@@ -41,10 +41,11 @@ render () {
 
             <Col sm={4}>            
             <br />
-            <iframe title="Kulcher Tek Podcast" allowtransparency="true" 
-            style={{ width: 500, }} height="315" width="100%"  scrolling="no" data-name="pb-iframe-player" 
-            src="https://www.podbean.com/player-v2/?i=95jv9-a2feda-pbblog-playlist&share=1&download=1&rtl=0&fonts=Arial&skin=1&order=episodic&limit=10&filter=all&ss=a713390a017602015775e868a2cf26b0&btn-skin=7&size=315" allowfullscreen="">
-            </iframe></Col>
+
+            <iframe title="Test Audio" allowtransparency="true" height="150" width='auto' 
+            scrolling="no" data-name="pb-iframe-player" 
+            src="https://www.podbean.com/player-v2/?i=keqnf-10141c6-pb&from=embed&square=1&share=1&download=1&skin=1&btn-skin=7&size=300" allowfullscreen=""></iframe>
+            </Col>
         </Row>
 
 
