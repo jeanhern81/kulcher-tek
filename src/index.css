@@ -35,12 +35,12 @@ hr {
   border-top: 1px solid gray !important;
 }
 
-p.gmTxt {
-  margin-left: 12rem;
+#gerson {
+  padding-right: 1rem;
 }
 
-p.jeanetteTxt {
-  margin-left: 12rem;
+#me {
+  padding-right: 1rem;
 }
 
 .jumbotron {

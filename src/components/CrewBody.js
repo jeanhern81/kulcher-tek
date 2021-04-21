@@ -40,12 +40,12 @@ return (
         <div >
         <Col>   
         <p className='gmTxt'>
-        Technology has been a part of me for as long as I can remember. From playing with my cousin's Atari to understanding how a VCR operates and connecting it to multiple components. This would eventually have computers and coding cross my path. From having a Compaq desktop to building my own and playing with MySpace to developing a full blown working web application, technology has been a big part of my life. With all of my experiences, I hope to share some of my knowledge to those who might not be sure if technology is their future or are on the fence of just picking it up for fun. Trust me. It's worth it. With all that said however, my true passion will always be comic books. Specifically Teenage Mutant Ninja Turtles. Let's see how I combine my passion with my love. 
+        Technology has been a part of me for as long as I can remember. 
+        
+        From playing with my cousin's Atari to understanding how a VCR operates and connecting it to multiple components. This would eventually have computers and coding cross my path. From having a Compaq desktop to building my own and playing with MySpace to developing a full blown working web application, technology has been a big part of my life. With all of my experiences, I hope to share some of my knowledge to those who might not be sure if technology is their future or are on the fence of just picking it up for fun. Trust me. It's worth it. With all that said however, my true passion will always be comic books. Specifically Teenage Mutant Ninja Turtles. Let's see how I combine my passion with my love. 
         </p>
         </Col>
-    
-
-        
+            
     </div>
 <br />
 <hr />
