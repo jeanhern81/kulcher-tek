@@ -44,18 +44,19 @@ hr {
 }
 
 .jumbotron {
-  height: auto;
-  width: auto;
+
   padding: 0% !important;
   padding-left: 0% !important;
   padding-right: 0% !important;
   margin-bottom: 0% !important;
-  display: flex;
   
-  flex-direction: column;
+  display: flex;
+  position: relative;
+  flex-direction: column-reverse;
   background-repeat: no-repeat;
+  /*
   background-size: cover;
-
+  */
 }
 
 .btn-dark {

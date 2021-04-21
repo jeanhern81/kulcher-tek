@@ -20,8 +20,8 @@ function NavBarMain() {
 
 
         <Link className="navbar-brand hover" to="/">
-        <img src={KTFont} style={{width: 125}} id='KTLogo' alt='KT Logo' ></img>
-        </Link> &nbsp; &nbsp;
+        <img src={KTFont} style={{width: 200}} id='KTLogo' alt='KT Logo' ></img>
+        </Link> &nbsp; 
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -32,16 +32,16 @@ function NavBarMain() {
             <ul className="navbar-nav">
                 <Link className="nav-link active hover" to="/">
                 <li><AiFillHome /> Home</li>
-                </Link> &nbsp; &nbsp;
+                </Link> &nbsp; 
                 <Link className="nav-link active hover" to="/crew">
                 <li><BsFillPeopleFill /> Meet the Crew</li>
-                </Link> &nbsp; &nbsp;
+                </Link> &nbsp; 
                 <Link className="nav-link active hover" to="/contact">
                 <li><MdEmail /> Contact Us</li>
-                </Link> &nbsp; &nbsp; 
+                </Link> &nbsp; 
                 
                 
-                <Nav.Link className='nav-link active hover' href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
+                <Nav.Link className='nav-link active hover' href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp;
                 <Nav.Link className='nav-link active hover' href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
             </ul>
             </div>
