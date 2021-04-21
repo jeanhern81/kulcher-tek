@@ -51,7 +51,7 @@ p.jeanetteTxt {
   padding-right: 0% !important;
   margin-bottom: 0% !important;
   display: flex;
-  min-height: 91vh;
+  
   flex-direction: column;
   background-repeat: no-repeat;
   background-size: cover;
