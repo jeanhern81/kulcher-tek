@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import {
-    BrowserRouter as Router, 
-} from "react-router-dom";
 
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from "react-router-dom";
 
 import { AiFillHome } from 'react-icons/ai';
 import { BsFillPeopleFill } from 'react-icons/bs';
@@ -12,50 +10,42 @@ import { MdEmail } from 'react-icons/md';
 import { ImPodcast } from 'react-icons/im';
 import { FaPatreon } from 'react-icons/fa';
 
-
-class NavBarMain extends Component {
-
-    render() {
-        return (
-            <div>
-    
-    <Router>
-    <Navbar bg="dark" variant="dark" >
-    <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>&nbsp; &nbsp;
-    <Nav className="mr-auto">
-
-        <Nav.Link href="/"><AiFillHome /> Home</Nav.Link>&nbsp; &nbsp;
-        <Nav.Link href="/crew"><BsFillPeopleFill /> Meet the Crew</Nav.Link>&nbsp; &nbsp;
-        <Nav.Link href='/contact'><MdEmail /> Contact Us</Nav.Link>&nbsp; &nbsp;
-    
-            {/* external liks */}
-        <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
-        <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
-
-        {/* 
-        <NavDropdown title="Shop Merch" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Clothing</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.2">Misc</NavDropdown.Item>
-        </NavDropdown>  
-    */} 
-    </Nav>
-    {/*  Search Box
-    <Form inline>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-        <Button variant="outline-light">Search</Button>
-    </Form>
-    */}
-    </Navbar>
-    </Router>
-
-    
-    
+function NavBarMain() {
+    return (
+    <div>
+        <Navbar className="navbar navbar-expand-sm mb-5" bg="dark" variant="dark" >
+        <Link className="navbar-brand hover" to="/">
+            <h4>Kulcher Tek</h4>
+        </Link> &nbsp; &nbsp;
+        <button
+            className="navbar-toggler navbar-light"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+                <Link className="nav-link active hover" to="/">
+                <li><AiFillHome /> Home</li>
+                </Link> &nbsp; &nbsp;
+                <Link className="nav-link active hover" to="/crew">
+                <li><BsFillPeopleFill /> Meet the Crew</li>
+                </Link> &nbsp; &nbsp;
+                <Link className="nav-link active hover" to="/contact">
+                <li><MdEmail /> Contact Us</li>
+                </Link> &nbsp; &nbsp; 
+                <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
+                <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
+            </ul>
             </div>
-        );
-        }
-
+            </Navbar>
+        </div>
+    );
 }
-
 
 export default NavBarMain;
