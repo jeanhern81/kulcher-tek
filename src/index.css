@@ -50,6 +50,12 @@ p.jeanetteTxt {
   padding-left: 0% !important;
   padding-right: 0% !important;
   margin-bottom: 0% !important;
+  display: flex;
+  min-height: 91vh;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .btn-dark {
@@ -65,4 +71,10 @@ color: green !important;
 
 .err-msg {
   color: red !important;
+}
+
+.jumbotron {
+  
+  background-position: center 10%;
+  background-size: cover;
 }
