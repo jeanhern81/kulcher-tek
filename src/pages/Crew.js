@@ -19,4 +19,4 @@ class Crew extends React.Component {
     );
     }
 }
-export default Crew;
+export { Crew };
