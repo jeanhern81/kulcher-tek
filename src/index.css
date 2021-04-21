@@ -45,7 +45,7 @@ hr {
 }
 
 .jumbotron {
-  background-size: auto;
+  
   padding: 0% !important;
   padding-left: 0% !important;
   padding-right: 0% !important;
@@ -79,4 +79,10 @@ color: green !important;
   
   background-position: center 10%;
   background-size: cover;
+}
+
+@media (max-width: 979px) {
+  .jumbotron { 
+    display: none;
+  }
 }
