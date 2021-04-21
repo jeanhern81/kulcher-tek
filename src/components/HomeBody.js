@@ -33,11 +33,11 @@ render () {
             <Col sm={6}>
         <h3>Upcoming Show Topics:</h3>
             <ul>The Internet and Me</ul>
-            <ul>TikTok and the Over 60 Crowd </ul>
-            <ul>Crypto Currency say what? </ul>
-            <ul>TBD </ul>
-            <ul>TBD </ul>
-            <ul>TBD </ul>
+            <ul>Cryptocurrency</ul>
+            <ul>Education </ul>
+            <ul>Silicon Shortage</ul>
+            <ul>Pandemic Ready </ul>
+            <ul>Bots </ul>
 
 
             </Col>
