@@ -14,23 +14,21 @@ import { FaPatreon } from 'react-icons/fa';
 
 function NavBarMain() {
     return (
-    <div>
-        <Navbar className="navbar navbar-expand-sm " bg="dark" variant="dark" >
+    <div> 
+
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+
+
         <Link className="navbar-brand hover" to="/">
         <img src={KTFont} style={{width: 125}} id='KTLogo' alt='KT Logo' ></img>
         </Link> &nbsp; &nbsp;
-        <button
-            className="navbar-toggler navbar-light"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-        >
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+
+        <Nav className="mr-auto">
+
+        <div className="navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <Link className="nav-link active hover" to="/">
                 <li><AiFillHome /> Home</li>
@@ -47,7 +45,9 @@ function NavBarMain() {
                 <Nav.Link className='nav-link active hover' href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
             </ul>
             </div>
-            </Navbar>
+            </Nav>
+            </Navbar.Collapse>
+</Navbar>
         </div>
     );
 }

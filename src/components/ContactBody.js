@@ -83,7 +83,7 @@ class ContactBody extends React.Component {
 
             <br />
 
-            <p>We'd love to hear from you. If you have a show suggestion, feedback, or want to become a sponsor, feel free to fill out the contact form and we'll be in touch. </p>
+            <p>We'd love to hear from you. If you have a show suggestions, feedback, or want to become a sponsor, feel free to fill out the contact form and we'll be in touch. </p>
             
             <br />
 
