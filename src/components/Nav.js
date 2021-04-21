@@ -39,8 +39,10 @@ function NavBarMain() {
                 <Link className="nav-link active hover" to="/contact">
                 <li><MdEmail /> Contact Us</li>
                 </Link> &nbsp; &nbsp; 
-                <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
-                <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
+                
+                
+                <Nav.Link className='nav-link active hover' href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
+                <Nav.Link className='nav-link active hover' href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
             </ul>
             </div>
             </Navbar>
