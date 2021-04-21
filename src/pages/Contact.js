@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import ContactBody from '../components/ContactBody';
 
 
 //Style Sheet
@@ -12,7 +12,7 @@ function Contact() {
 return (
 
     <p>
-        Contact Page
+        <ContactBody />
     </p>
             
 );

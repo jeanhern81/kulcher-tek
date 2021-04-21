@@ -50,3 +50,18 @@ p.jeanetteTxt {
   padding-right: 0% !important;
   margin-bottom: 0% !important;
 }
+
+.btn-dark {
+  background-color:black !important;
+}
+
+.d-inline, 
+.succege-msg {
+
+color: green !important;
+}
+
+.d-inline,
+.err-msg {
+  color: red !important;
+}
