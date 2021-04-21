@@ -25,12 +25,13 @@ code {
   margin-top: 5%;
 }
 
+/*
 .vl {
   border-left: 1px solid gray;
   height: 400px;
-  margin-right: 5%;
+  
 }
-
+*/
 hr {
   border-top: 1px solid gray !important;
 }
@@ -44,7 +45,7 @@ hr {
 }
 
 .jumbotron {
-
+  background-size: auto;
   padding: 0% !important;
   padding-left: 0% !important;
   padding-right: 0% !important;
