@@ -7,9 +7,9 @@ import ContactBody from '../components/ContactBody';
 import '../index.css';
 
 
-function Contact() {
-
-return (
+class Contact extends React.Component{
+render() {
+    return (
 
     <p>
         <ContactBody />
@@ -17,4 +17,6 @@ return (
             
 );
 }
-export { Contact } ;
+
+}
+export default Contact;

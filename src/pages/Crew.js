@@ -8,7 +8,7 @@ import '../index.css';
 
 class Crew extends React.Component {
     render() {
-    return (
+            return (
         <div>
             
             
@@ -17,6 +17,7 @@ class Crew extends React.Component {
             
         </div>
     );
+    } 
+
     }
-}
-export { Crew };
+export default Crew;

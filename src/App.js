@@ -2,8 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "../src/pages/Home";
-import { Crew } from "../src/pages/Crew";
-import { Contact }  from '../src/pages/Contact';
+import Crew from "../src/pages/Crew";
+import Contact  from '../src/pages/Contact';
 
 import Nav from '../src/components/Nav';
 import Footer from '../src/components/Footer';
@@ -23,9 +23,9 @@ function App() {
 <Router>
     <Switch>
 
-      <Route  exac tpath='/'  component={Home} />       
-      <Route path='/crew' component={Crew} />
-      <Route path='/contact' component={Contact} />
+      <Route exact path='/'  component={Home} />       
+      <Route exact path='/crew' component={Crew} />
+      <Route exact path='/contact' component={Contact} />
       
       
     </Switch>
