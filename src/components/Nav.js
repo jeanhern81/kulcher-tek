@@ -36,12 +36,14 @@ function NavBarMain() {
                 <Link className="nav-link active hover" to="/crew">
                 <li><BsFillPeopleFill /> Meet the Crew</li>
                 </Link> &nbsp; 
+                <Link className='nav-link active hover' to='/listen'>
+                <li><ImPodcast /> Listen</li>
+                </Link>
                 <Link className="nav-link active hover" to="/contact">
                 <li><MdEmail /> Contact Us</li>
                 </Link> &nbsp; 
                 
                 
-                <Nav.Link className='nav-link active hover' href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp;
                 <Nav.Link className='nav-link active hover' href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
             </ul>
             </div>
