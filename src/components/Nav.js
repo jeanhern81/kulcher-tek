@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Link } from "react-router-dom";
 
+import KTFont from '../images/KTFont.png'
+
 import { AiFillHome } from 'react-icons/ai';
 import { BsFillPeopleFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
@@ -15,7 +17,7 @@ function NavBarMain() {
     <div>
         <Navbar className="navbar navbar-expand-sm " bg="dark" variant="dark" >
         <Link className="navbar-brand hover" to="/">
-            <h4>Kulcher Tek</h4>
+        <img src={KTFont} style={{width: 125}} id='KTLogo' alt='KT Logo' ></img>
         </Link> &nbsp; &nbsp;
         <button
             className="navbar-toggler navbar-light"

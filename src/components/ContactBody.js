@@ -5,6 +5,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
+import { RiSendPlaneFill } from 'react-icons/ri';
+
 import emailjs from 'emailjs-com';
 
 import '../index.css';
@@ -110,7 +112,7 @@ class ContactBody extends React.Component {
 
 
                         <Button className="d-inline-block" variant="dark" type="submit" disabled={this.state.disabled}>
-                            Send
+                        Send    <RiSendPlaneFill /> 
                         </Button>
 
 
