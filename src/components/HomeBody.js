@@ -16,7 +16,7 @@ render () {
     <div>
     
 
-        <Container fluid={false} className="py-5">
+        <Container fluid={false} className="py-1">
         <p class="bodyText">
             <h1>Welcome!</h1>
                 <p>Kulcher Tek Podcast where we talk about how techonology, pop culture, and everything in-between.</p>

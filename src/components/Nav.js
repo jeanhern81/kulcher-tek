@@ -13,7 +13,7 @@ import { FaPatreon } from 'react-icons/fa';
 function NavBarMain() {
     return (
     <div>
-        <Navbar className="navbar navbar-expand-sm mb-5" bg="dark" variant="dark" >
+        <Navbar className="navbar navbar-expand-sm " bg="dark" variant="dark" >
         <Link className="navbar-brand hover" to="/">
             <h4>Kulcher Tek</h4>
         </Link> &nbsp; &nbsp;
