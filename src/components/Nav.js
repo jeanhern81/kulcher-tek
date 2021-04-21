@@ -6,6 +6,11 @@ import {
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
+import { AiFillHome } from 'react-icons/ai';
+import { BsFillPeopleFill } from 'react-icons/bs';
+import { MdEmail } from 'react-icons/md';
+import { ImPodcast } from 'react-icons/im';
+import { FaPatreon } from 'react-icons/fa';
 
 
 class NavBarMain extends Component {
@@ -16,16 +21,16 @@ class NavBarMain extends Component {
     
     <Router>
     <Navbar bg="dark" variant="dark" >
-    <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>
+    <Navbar.Brand href="/">Kulcher Tek Podcast</Navbar.Brand>&nbsp; &nbsp;
     <Nav className="mr-auto">
 
-        <Nav.Link href="/">Home</Nav.Link>
-        <Nav.Link href="/crew">Meet the Crew</Nav.Link>
-        <Nav.Link href='/contact'>Contact Us</Nav.Link>
+        <Nav.Link href="/"><AiFillHome /> Home</Nav.Link>&nbsp; &nbsp;
+        <Nav.Link href="/crew"><BsFillPeopleFill /> Meet the Crew</Nav.Link>&nbsp; &nbsp;
+        <Nav.Link href='/contact'><MdEmail /> Contact Us</Nav.Link>&nbsp; &nbsp;
     
             {/* external liks */}
-        <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'>Podcast</Nav.Link>
-        <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'>Patreon</Nav.Link>
+        <Nav.Link href="https://kulchertek.podbean.com/" target='_blank'><ImPodcast /> Podcast</Nav.Link>&nbsp; &nbsp;
+        <Nav.Link href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
 
         {/* 
         <NavDropdown title="Shop Merch" id="collasible-nav-dropdown">
