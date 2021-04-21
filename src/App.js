@@ -14,13 +14,13 @@ import './App.css';
 
 function App() {
   return (
-
+<Router>
     <div className='App'>
       
 <Jumbotron />
 <Nav />
 
-<Router>
+
     <Switch>
 
       <Route exact path='/'  component={Home} />       
@@ -29,14 +29,10 @@ function App() {
       
       
     </Switch>
-</Router>
-
 <Footer />   
 
-
-
   </div>
-
+</Router>
   );
 }
 
