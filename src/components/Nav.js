@@ -38,7 +38,7 @@ function NavBarMain() {
                 </Link> &nbsp; 
                 <Link className='nav-link active hover' to='/listen'>
                 <li><ImPodcast /> Listen</li>
-                </Link>
+                </Link> &nbsp; 
                 <Link className="nav-link active hover" to="/contact">
                 <li><MdEmail /> Contact Us</li>
                 </Link> &nbsp; 
