@@ -22,11 +22,12 @@ class Footer extends Component {
         return (
             <Container fluid={true}>
                 
-            
+             <hr />
             <Navbar bg="clear"  bottom='fixed' className="justify-content-center footer p-0">
                 <Row>
                 <Col >
-                    <Navbar.Brand id="kT">
+                    <Navbar.Brand id="kT"> 
+                   
                         <AiOutlineCopyrightCircle /> Kulter Tek Media 2021.
                     </Navbar.Brand>
                 </Col >

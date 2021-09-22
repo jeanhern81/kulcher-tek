@@ -7,6 +7,7 @@ import applePodcast from '../images/podcastLogo/applePodcast.png';
 import spotifyPodcast from '../images/podcastLogo/spotifyPodcast.png';
 import stitcherPodcast from '../images/podcastLogo/stitcherPodcast.png';
 import Patreon from '../images/podcastLogo/Patreon.png';
+import googlePlay from '../images/podcastLogo/googlePlay.png';
 
 import TwitterFeed from '../components/TwitterFeed';
 //Style Sheet
@@ -34,10 +35,12 @@ render () {
         <h3>Upcoming Show Topics:</h3>
             <ul>The Internet and Me</ul>
             <ul>Cryptocurrency</ul>
-            <ul>Education </ul>
-            <ul>Silicon Shortage</ul>
-            <ul>Pandemic Ready </ul>
             <ul>Bots </ul>
+            <ul>Smart Homes</ul>
+            <ul>Subscription Services</ul>
+            <ul>Pandemic Ready</ul>
+            <ul> Older Generation and the News  </ul>
+            
 
 
             </Col>
@@ -55,6 +58,9 @@ render () {
             <p>
                 <a href=""><img src={stitcherPodcast} style={{width: 300  }} id='stitcherPodcast' alt='Stitcher Podcast Logo' ></img></a>
             </p> 
+            <p>
+                <a href=""><img src={googlePlay} style={{width: 300 }} id='googlePlay' alt='Google Play Logo'></img></a>
+            </p>
             </Col>
 
             
