@@ -44,7 +44,7 @@ function NavBarMain() {
                 </Link> &nbsp; 
                 
                 
-                <Nav.Link className='nav-link active hover' href="https://www.patreon.com/kulchertek?fan_landing=true" target='_blank'><FaPatreon /> Patreon</Nav.Link>
+                
             </ul>
             </div>
             </Nav>

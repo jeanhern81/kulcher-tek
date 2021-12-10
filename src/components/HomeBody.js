@@ -76,17 +76,11 @@ render () {
         <Col>
                 <div className='justify-content-center'>
             <p>
-                Like what you hear? You can join our Patreon for as little as $3 a month. Thanks for your support!
             </p>
-        <a href="https://www.patreon.com/bePatron?u=49976226" data-patreon-widget-type="become-patron-button"><img src={Patreon} style={{ width: 300}} id='patreon' alt='Patreon Logo Button'></img></a>
 
-        </div>
         
-        </Col>
+        
 
-        <Col>
-        
-        <div>
         
         <TwitterFeed />
 
@@ -95,6 +89,7 @@ render () {
         </p>
         
         </div>
+
         </Col>
 
 
